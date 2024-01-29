@@ -1,5 +1,5 @@
 artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/b79bd15d12fa44d68f1ddf8cc5c2e6a8/artifacts
-end_time: null
+end_time: 1706534366023
 entry_point_name: ''
 experiment_id: '0'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1706533883500
-status: 1
+status: 3
 tags: []
 user_id: apple

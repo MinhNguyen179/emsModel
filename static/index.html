@@ -21,6 +21,8 @@
         <input type="number" id="batchSize" name="batchSize" min="1" value="32"><br><br>
 
         <input type="submit" value="Start Training">
+        <button id="pauseTrainingButton" onclick="pauseTraining()">Pause Training</button>
+        <button id="resumeTrainingButton" onclick="resumeTraining()">Resume Training</button>
     </form>
     <div id="response"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
@@ -71,6 +73,12 @@
             progressDiv.innerHTML += `Epoch ${data.epoch}: Loss - ${data.loss}, Accuracy - ${data.accuracy}, Mean Squared Error - ${data.mean_squared_error}<br>`;
         }
     });
+    function pauseTraining() {
+        socket.emit('pause_training');
+    }
+    function resumeTraining() {
+        socket.emit('resume_training');
+    }
 
     socket.on('training_complete', function (data) {
         // Training is complete, display a message
