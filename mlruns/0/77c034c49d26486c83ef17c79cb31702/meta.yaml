@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/77c034c49d26486c83ef17c79cb31702/artifacts
+end_time: 1706492039742
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 77c034c49d26486c83ef17c79cb31702
+run_name: skillful-mink-508
+run_uuid: 77c034c49d26486c83ef17c79cb31702
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706492039725
+status: 4
+tags: []
+user_id: apple

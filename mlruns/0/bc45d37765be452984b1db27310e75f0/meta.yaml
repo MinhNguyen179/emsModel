@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/bc45d37765be452984b1db27310e75f0/artifacts
+end_time: 1706495833829
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc45d37765be452984b1db27310e75f0
+run_name: redolent-ape-923
+run_uuid: bc45d37765be452984b1db27310e75f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706495350790
+status: 3
+tags: []
+user_id: apple

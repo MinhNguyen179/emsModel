@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/0e104e5fce4f433693da139c581b5eac/artifacts
+deleted_time: 1706533929233
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0e104e5fce4f433693da139c581b5eac
+run_name: Session_None
+run_uuid: 0e104e5fce4f433693da139c581b5eac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706499947670
+status: 1
+tags: []
+user_id: apple

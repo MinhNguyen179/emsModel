@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/0b89a47d02694e8d8e5ec52e515ddf63/artifacts
+end_time: 1706441936993
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0b89a47d02694e8d8e5ec52e515ddf63
+run_name: powerful-hawk-574
+run_uuid: 0b89a47d02694e8d8e5ec52e515ddf63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706441936977
+status: 3
+tags: []
+user_id: apple

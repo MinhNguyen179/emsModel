@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/e1b20fec6bdb4dbd9127f83a2275819e/artifacts
+end_time: 1706492265913
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1b20fec6bdb4dbd9127f83a2275819e
+run_name: defiant-hen-49
+run_uuid: e1b20fec6bdb4dbd9127f83a2275819e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706492265887
+status: 4
+tags: []
+user_id: apple

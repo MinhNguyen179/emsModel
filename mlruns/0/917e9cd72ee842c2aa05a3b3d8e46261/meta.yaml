@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/917e9cd72ee842c2aa05a3b3d8e46261/artifacts
+end_time: 1706492067699
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 917e9cd72ee842c2aa05a3b3d8e46261
+run_name: righteous-snake-239
+run_uuid: 917e9cd72ee842c2aa05a3b3d8e46261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706492067686
+status: 4
+tags: []
+user_id: apple

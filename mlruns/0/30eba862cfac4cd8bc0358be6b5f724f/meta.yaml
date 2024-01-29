@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/30eba862cfac4cd8bc0358be6b5f724f/artifacts
+end_time: 1706490240796
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 30eba862cfac4cd8bc0358be6b5f724f
+run_name: likeable-ox-883
+run_uuid: 30eba862cfac4cd8bc0358be6b5f724f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706490104702
+status: 3
+tags: []
+user_id: apple

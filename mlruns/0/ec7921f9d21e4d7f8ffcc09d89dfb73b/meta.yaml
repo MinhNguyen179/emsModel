@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/ec7921f9d21e4d7f8ffcc09d89dfb73b/artifacts
+end_time: 1706496972968
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec7921f9d21e4d7f8ffcc09d89dfb73b
+run_name: persistent-croc-728
+run_uuid: ec7921f9d21e4d7f8ffcc09d89dfb73b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706496808838
+status: 3
+tags: []
+user_id: apple

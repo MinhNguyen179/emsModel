@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/232e2bfb67d04440bdacb740f3886200/artifacts
+end_time: 1706441769773
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 232e2bfb67d04440bdacb740f3886200
+run_name: gregarious-pig-648
+run_uuid: 232e2bfb67d04440bdacb740f3886200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706441769757
+status: 3
+tags: []
+user_id: apple

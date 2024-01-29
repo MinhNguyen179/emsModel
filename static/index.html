@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Training Progress</title>
+</head>
+<body>
+    <h1>Start Model Training</h1>
+    <h1>You can check current progress here: http://127.0.0.1:5000/</h1>
+    <form id="trainingForm">
+        <label for="sessionID">Session ID:</label>
+        <input type="text" id="sessionID" name="sessionID" value=""><br><br>
+
+        <label for="learningRate">Learning Rate:</label>
+        <input type="number" id="learningRate" name="learningRate" step="0.001" min="0" value="0.001"><br><br>
+
+        <label for="numEpochs">Number of Epochs:</label>
+        <input type="number" id="numEpochs" name="numEpochs" min="1" value="5"><br><br>
+
+        <label for="batchSize">Batch Size:</label>
+        <input type="number" id="batchSize" name="batchSize" min="1" value="32"><br><br>
+
+        <input type="submit" value="Start Training">
+    </form>
+    <div id="response"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script>
+        document.getElementById('trainingForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const sessionID = document.getElementById('sessionID').value;
+            const learningRate = document.getElementById('learningRate').value;
+            const numEpochs = document.getElementById('numEpochs').value;
+            const batchSize = document.getElementById('batchSize').value;
+
+            axios.post('/start_training', {
+                session_id: sessionID,
+                learning_rate: learningRate,
+                num_epochs: numEpochs,
+                batch_size: batchSize
+            })
+            .then(function (response) {
+                document.getElementById('response').innerHTML = 'Training started for Session ID: ' + sessionID;
+                // Create a new progress div for this session
+                var progressDiv = document.createElement('div');
+                progressDiv.id = 'progress_' + sessionID;
+                progressDiv.innerHTML = '<h3>Progress for Session ID: ' + sessionID + '</h3>';
+                document.body.appendChild(progressDiv);
+            })
+            .catch(function (error) {
+                document.getElementById('response').innerHTML = 'Error: ' + error;
+            });
+        });
+    </script>
+    <div id="progress">
+        <!-- Training progress for each session will be displayed here -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script>
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+    socket.on('connect', function () {
+        console.log('Connected to WebSocket');
+    });
+
+    socket.on('training_progress', function(data) {
+        var progressDiv = document.getElementById('progress_' + data.session_id);
+        if (progressDiv) {
+            // Append new epoch data to the existing content
+            progressDiv.innerHTML += `Epoch ${data.epoch}: Loss - ${data.loss}, Accuracy - ${data.accuracy}, Mean Squared Error - ${data.mean_squared_error}<br>`;
+        }
+    });
+
+    socket.on('training_complete', function (data) {
+        // Training is complete, display a message
+        alert('Training completed for Session ID: ' + data.session_id);
+    });
+    </script>
+</body>
+</html>

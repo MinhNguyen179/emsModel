@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/69d2bf121b0c4b7c83d1987be9d26e0c/artifacts
+end_time: 1706493242811
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 69d2bf121b0c4b7c83d1987be9d26e0c
+run_name: monumental-mare-686
+run_uuid: 69d2bf121b0c4b7c83d1987be9d26e0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706493107535
+status: 3
+tags: []
+user_id: apple

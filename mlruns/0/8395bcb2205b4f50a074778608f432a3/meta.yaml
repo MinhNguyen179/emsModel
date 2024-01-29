@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/8395bcb2205b4f50a074778608f432a3/artifacts
+end_time: 1706439268704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8395bcb2205b4f50a074778608f432a3
+run_name: industrious-koi-789
+run_uuid: 8395bcb2205b4f50a074778608f432a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706439268689
+status: 3
+tags: []
+user_id: apple

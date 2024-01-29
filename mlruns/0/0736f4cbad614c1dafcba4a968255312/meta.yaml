@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/0736f4cbad614c1dafcba4a968255312/artifacts
+end_time: 1706497098686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0736f4cbad614c1dafcba4a968255312
+run_name: puzzled-deer-766
+run_uuid: 0736f4cbad614c1dafcba4a968255312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706496992029
+status: 3
+tags: []
+user_id: apple

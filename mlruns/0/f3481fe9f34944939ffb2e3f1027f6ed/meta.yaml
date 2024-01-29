@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/f3481fe9f34944939ffb2e3f1027f6ed/artifacts
+end_time: 1706494381844
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3481fe9f34944939ffb2e3f1027f6ed
+run_name: indecisive-crab-941
+run_uuid: f3481fe9f34944939ffb2e3f1027f6ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706494355728
+status: 3
+tags: []
+user_id: apple

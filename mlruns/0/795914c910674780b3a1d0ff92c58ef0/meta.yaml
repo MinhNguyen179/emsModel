@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/795914c910674780b3a1d0ff92c58ef0/artifacts
+end_time: 1706492215348
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 795914c910674780b3a1d0ff92c58ef0
+run_name: persistent-mouse-228
+run_uuid: 795914c910674780b3a1d0ff92c58ef0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706492215330
+status: 4
+tags: []
+user_id: apple

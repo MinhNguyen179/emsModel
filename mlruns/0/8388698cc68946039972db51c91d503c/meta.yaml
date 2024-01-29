@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/flask/flaskProject/mlruns/0/8388698cc68946039972db51c91d503c/artifacts
+end_time: 1706439147673
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8388698cc68946039972db51c91d503c
+run_name: charming-skunk-925
+run_uuid: 8388698cc68946039972db51c91d503c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1706439147661
+status: 4
+tags: []
+user_id: apple
